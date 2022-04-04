@@ -88,6 +88,9 @@ pipwin install pyaudio
 6) convo uses imports from silero those are already included in this repo. please check an ensure that silero model and utils are at the right place
 
 With that we are done with the installation steps. Now try running convo.py in the terminal using silero virtual environment and you should be able to speak with your computer :smile:
+```
+python convo.py
+```
 
 when you run convo for the first time, it will download silero models to cache. Download Progress will be displayed in the output terminal. In subsequent runs it will use locally cached models which will be fast.
 
