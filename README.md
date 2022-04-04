@@ -12,7 +12,7 @@ convo birngs together [silero](https://github.com/snakers4/silero-models) and [r
 
  - [rasa](https://github.com/RasaHQ) is an enterprise-grade chatbot built on python and Transformer based language models providing state-of-the-art framework comparable or better than top cloud based chatbot frameworks 
 
-convo can run easily on a local cpu based machine, therefore  convo provides high response time at zero operational cost.
+convo can run easily on a local cpu based machine, thus convo provides high response times at no cloud service costs.
 
 Typical STT and TTS infernece time on a local machine for one sentence is less than 0.5 seconds each and rasa bot response time is around 1-2 seconds. This can be improved even further by fine tuning and using dedicated machines. 
   
