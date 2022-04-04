@@ -24,7 +24,7 @@ convo advantages:
 convo does not use any hotword detection mechanism however it can stop speaking by speaker requesting with keywords like stop / quit / exit.   
 
 
-## Installation and Basics
+# Installation and Basics
 
 There are 2 base softwares / frameworks those need to be installed for setting up convo 
 
@@ -32,9 +32,9 @@ There are 2 base softwares / frameworks those need to be installed for setting u
 - [silaro](https://github.com/snakers4/silero-models); 
 
 
-# rasa Installation steps
-    1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here](https://rasa.com/docs/rasa/installation/)
-       Current version of rasa version 3.x requires python 3.7 or 3.8. enable rasa virtual environment before following below installation steps.
+## rasa Installation steps
+
+    1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here](https://rasa.com/docs/rasa/installation/). Current version of rasa version 3.x requires python 3.7 or 3.8. enable rasa virtual environment before following below installation steps.
 
     2) Install rasa using 
 
