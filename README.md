@@ -29,8 +29,8 @@ convo does not use any hotword detection mechanism however it can stop speaking 
 
 There are 2 base softwares / frameworks those need to be installed for setting up convo 
 
-- [rasa](https://github.com/RasaHQ);  
-- [silaro](https://github.com/snakers4/silero-models); 
+- [rasa](https://github.com/RasaHQ)
+- [silaro](https://github.com/snakers4/silero-models)
 
 
 ## rasa Installation steps
