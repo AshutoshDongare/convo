@@ -6,9 +6,9 @@
 
 ![header](https://user-images.githubusercontent.com/18417621/161523640-a8cb4eea-0f74-4fff-ba0a-02182bd03a33.png)
 
-convo birngs together [silaro](https://github.com/snakers4/silero-models) and [rasa](https://github.com/RasaHQ) to create continuous speech conversationalist experience like Alexa or Google dot. 
+convo birngs together [silero](https://github.com/snakers4/silero-models) and [rasa](https://github.com/RasaHQ) to create continuous speech conversationalist experience like Alexa or Google dot. 
 
- - [silaro](https://github.com/snakers4/silero-models) STT and TTS models provide the quality comparable to Google's STT (and sometimes even better) but they are not  Google. See silaro performance [benchmarks](https://github.com/snakers4/silero-models/wiki/Quality-Benchmarks) 
+ - [silero](https://github.com/snakers4/silero-models) STT and TTS models provide the quality comparable to Google's STT (and sometimes even better) but they are not  Google. See silero performance [benchmarks](https://github.com/snakers4/silero-models/wiki/Quality-Benchmarks) 
 
  - [rasa](https://github.com/RasaHQ) which is an enterprise-grade chatbot built on python and Transformer based language models providing state of the art framework comparable or better than top cloud based chatbot frameworks 
 
@@ -20,7 +20,7 @@ convo advantages:
 - High performance as the framework can run locally on a cpu;
 - No cloud charges so this can be implemented for masses;
 - highly customizable using rasa custom action server to add any desired functionality;
-- Can support multiple languages as supported by silaro models
+- Can support multiple languages as supported by silero models
 
 convo does not use any hotword detection mechanism however it can stop speaking by speaker requesting with keywords like stop / quit / exit.   
 
@@ -30,7 +30,7 @@ convo does not use any hotword detection mechanism however it can stop speaking 
 There are 2 base softwares / frameworks those need to be installed for setting up convo 
 
 - [rasa](https://github.com/RasaHQ)
-- [silaro](https://github.com/snakers4/silero-models)
+- [silero](https://github.com/snakers4/silero-models)
 
 
 ## rasa Installation steps
@@ -57,11 +57,11 @@ There are 2 base softwares / frameworks those need to be installed for setting u
  rasa run --enable-api
 ```
 
-# silaro Installation steps
+# silero Installation steps
     
-1) Create a python virtual environment named "silaro" with latest python version 
+1) Create a python virtual environment named "silero" with latest python version 
     
-2) There are quite a few dependencies for running silaro. we will go through them in following steps
+2) There are quite a few dependencies for running silero. we will go through them in following steps
     
 3) Install pytorch using instructions on https://pytorch.org/get-started/locally/ - if you are on windows & cpu only, this command may look like below
     
@@ -85,18 +85,18 @@ pip install pipwin
 pipwin install pyaudio 
 ```
 
-6) convo uses imports from silaro those are already included in this repo. please check an ensure that silaro model and utils are at the right place
+6) convo uses imports from silero those are already included in this repo. please check an ensure that silero model and utils are at the right place
 
-With that we are done with the installation steps. Now try running convo.py in the terminal using silaro virtual environment and you should be able to speak with your computer :smile:
+With that we are done with the installation steps. Now try running convo.py in the terminal using silero virtual environment and you should be able to speak with your computer :smile:
 
-when you run convo for the first time, it will download silaro models to cache. Download Progress will be displayed in the output terminal. In subsequent runs it will use locally cached models which will be fast.
+when you run convo for the first time, it will download silero models to cache. Download Progress will be displayed in the output terminal. In subsequent runs it will use locally cached models which will be fast.
 
 # Troubleshooting steps
 
 if you are not able to speak with your computer then try checking below points
 
 1) Please check if your mic and speaker are enabled. on windows you may also need to check permissions etc.
-2) Please check if all the mentioned liberaries are installed properly and you are running both silaro and rasa in their own virtual environments
+2) Please check if all the mentioned liberaries are installed properly and you are running both silero and rasa in their own virtual environments
 3) Please check if are running rasa server from inside of the rasa bot directory using "rasa run --enable-api" and it said rasa server is up and running
 4) If you have had some compatibility errors while installing on the virtual environments, you may want to delete and recreate them
 5) In future there might be a change in the avaliable liberaries or compatibility, please do check for those kind of issues.
