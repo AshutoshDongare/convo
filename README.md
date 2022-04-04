@@ -107,18 +107,8 @@ if you are not able to speak with your computer then try checking below points
 
 ## Citations
 
-@misc{Silero VAD,
-  author = {Silero Team},
-  title = {Silero VAD: pre-trained enterprise-grade Voice Activity Detector (VAD), Number Detector and Language Classifier},
-  year = {2021},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/snakers4/silero-vad}},
-  commit = {insert_some_commit_here},
-  email = {hello@silero.ai}
-}
-
-[rasa](https://github.com/RasaHQ);  
+https://github.com/RasaHQ)
+https://github.com/snakers4/silero-models
 
 
 ## Future enhancements
