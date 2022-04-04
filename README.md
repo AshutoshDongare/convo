@@ -10,7 +10,7 @@ convo birngs together [silero](https://github.com/snakers4/silero-models) and [r
 
  - [silero](https://github.com/snakers4/silero-models) STT and TTS models provide the quality comparable to Google's STT (and sometimes even better) but they are not  Google. See silero performance [benchmarks](https://github.com/snakers4/silero-models/wiki/Quality-Benchmarks) 
 
- - [rasa](https://github.com/RasaHQ) which is an enterprise-grade chatbot built on python and Transformer based language models providing state-of-the-art framework comparable or better than top cloud based chatbot frameworks 
+ - [rasa](https://github.com/RasaHQ) is an enterprise-grade chatbot built on python and Transformer based language models providing state-of-the-art framework comparable or better than top cloud based chatbot frameworks 
 
 convo can run easily on a local cpu based machine, therefore  convo provides high response time at zero operational cost.
 
