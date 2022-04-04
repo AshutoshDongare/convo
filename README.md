@@ -59,33 +59,33 @@ There are 2 base softwares / frameworks those need to be installed for setting u
 
 # silaro Installation steps
     
-    1) Create a python virtual environment named "silaro" with latest python version 
+1) Create a python virtual environment named "silaro" with latest python version 
     
-    2) There are quite a few dependencies for running silaro. we will go through them in following steps
+2) There are quite a few dependencies for running silaro. we will go through them in following steps
     
-    3) Install pytorch using instructions on https://pytorch.org/get-started/locally/ - if you are on windows & cpu only, this command may look like below
+3) Install pytorch using instructions on https://pytorch.org/get-started/locally/ - if you are on windows & cpu only, this command may look like below
     
-    ``` 
-      pip install torch torchvision torchaudio
+``` 
+pip install torch torchvision torchaudio
+```
+
+4) Additionally we need following python packages
     
-    ``` 
-    4) Additionally we need following python packages
+```
+pip install PySoundFile SpeechRecognition omegaconf
+```
+
+speechRecognition is a wrapper liberary that allows performing speech recognition using multiple ASR services including google cloud speech etc. We will only be using this liberarty to capture and record audio since it provides detecting voice activity and ending mic recording when user stops speaking.
     
-    ```
-    pip install PySoundFile SpeechRecognition omegaconf
+5) we also need pyaudio installed. On windows 10-11 you may encounter error installing pyaudio. Please use following commands to install pyaudio in that case.
     
-    ```
-    speechRecognition is a wrapper liberary that allows performing speech recognition using multiple ASR services including google cloud speech etc. We will only be using this liberarty to capture and record audio since it provides detecting voice activity and ending mic recording when user stops speaking.
+``` 
+pip install pipwin 
     
-    5) we also need pyaudio installed. On windows 10-11 you may encounter error installing pyaudio. Please use following commands to install pyaudio in that case.
-    
-    ``` 
-      pip install pipwin 
-    
-      pipwin install pyaudio 
-    
-    ```
-    6) convo uses imports from silaro those are already included in this repo. please check an ensure that silaro model and utils are at the right place
+pipwin install pyaudio 
+```
+
+6) convo uses imports from silaro those are already included in this repo. please check an ensure that silaro model and utils are at the right place
 
 with this we should be done with the installation steps. try running convo.py in the terminal and see if you are able to speak with your computer :)
 * when you run convo for the first time, it will download silaro models to cache. Download Progress will be displayed in the output terminal. In subsequent runs it will use locally cached models which will be fast.
