@@ -1,3 +1,4 @@
+
  [![Mailing list : test](http://img.shields.io/badge/Email-gray.svg?style=for-the-badge&logo=gmail)](mailto:ashutosh.dongare@gmail.com) [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-GNU%20AGPL%203.0-lightgrey.svg?style=for-the-badge)](https://github.com/AshutoshDongare/convo/blob/main/LICENSE)
 
 
@@ -34,36 +35,27 @@ There are 2 base softwares / frameworks those need to be installed for setting u
 
 ## rasa Installation steps
 
-    1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here](https://rasa.com/docs/rasa/installation/). Current version of rasa version 3.x requires python 3.7 or 3.8. enable rasa virtual environment before following below installation steps.
+1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here](https://rasa.com/docs/rasa/installation/). Current version of rasa version 3.x requires python 3.7 or 3.8. enable rasa virtual environment before following below installation steps.
 
-    2) Install rasa using 
-
-    ```
-    pip install rasa
+2) Install rasa using 
+```
+ pip install rasa
+```  
+3) Run "rasa init" on the terminal. please follow on screen instructions to complete creating rasa chatbot instance. 
+```
+ rasa init
+```
     
-    ```  
-    3) Run "rasa init" on the terminal. please follow on screen instructions to complete creating rasa chatbot instance. 
+4) Once you have rasa chatbot instance installed you can check if it is working properly by running rasa shell that lets you talk to your assistant on the command line     
+```
+ rasa shell
+```
+   This will run rasa server and let you chat with it on terminal. Please enter "/stop" to stop rasa server.
     
-
-    ```
-    rasa init
-    
-    ```
-    
-    4) Once you have rasa chatbot instance installed you can check if it is working properly by running rasa shell that lets you talk to your assistant on the command line     
-    
-    ```
-    rasa shell
-    
-    ```
-    This will run rasa server and let you chat with it on terminal. Please enter "/stop" to stop rasa server.
-    
-    5) We would be calling this rasa chatbot using rest api call. When we want to communicate with rasa chatbot, we will need to start rasa using 
-
-    ```
-    rasa run --enable-api
-    
-    ```
+5) We would be calling this rasa chatbot using rest api call. When we want to communicate with rasa chatbot, we will need to start rasa using 
+```
+ rasa run --enable-api
+```
 
 # silaro Installation steps
     
@@ -130,5 +122,4 @@ if you are not able to speak with your computer then try checking below points
 This repo presents the base working implementation of convo. This can be further enhanced in many ways. Some of the enhancements are mentioned below 
  - Add more functionality to rasa like chitchat, faq and api calls to more "skills"
  - Add more communication languages and speakers
- - perform in momery processing of audio improving performance further  
- 
+ - perform in momery processing of audio improving performance further
