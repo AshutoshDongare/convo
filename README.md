@@ -5,11 +5,11 @@
 
 ![header](https://user-images.githubusercontent.com/18417621/161523640-a8cb4eea-0f74-4fff-ba0a-02182bd03a33.png)
 
-convo birngs together [silaro] (https://github.com/snakers4/silero-models) and [rasa] (https://github.com/RasaHQ) to create continuous speech conversationalist experience like Alexa or Google dot. 
+convo birngs together [silaro](https://github.com/snakers4/silero-models) and [rasa](https://github.com/RasaHQ) to create continuous speech conversationalist experience like Alexa or Google dot. 
 
- - [silaro] (https://github.com/snakers4/silero-models) STT and TTS models provide the quality comparable to Google's STT (and sometimes even better) but they are not  Google. See silaro performance [benchmarks](https://github.com/snakers4/silero-models/wiki/Quality-Benchmarks) 
+ - [silaro](https://github.com/snakers4/silero-models) STT and TTS models provide the quality comparable to Google's STT (and sometimes even better) but they are not  Google. See silaro performance [benchmarks](https://github.com/snakers4/silero-models/wiki/Quality-Benchmarks) 
 
- - [rasa] (https://github.com/RasaHQ) which is an enterprise-grade chatbot built on python and Transformer based language models providing state of the art framework comparable or better than top cloud based chatbot frameworks 
+ - [rasa](https://github.com/RasaHQ) which is an enterprise-grade chatbot built on python and Transformer based language models providing state of the art framework comparable or better than top cloud based chatbot frameworks 
 
 convo can run easily on a local cpu based machine, therefore  convo provides high response time at zero operational cost.
 
@@ -28,12 +28,12 @@ convo does not use any hotword detection mechanism however it can stop speaking 
 
 There are 2 base softwares / frameworks those need to be installed for setting up convo 
 
-- [rasa] (https://github.com/RasaHQ);  
-- [silaro] (https://github.com/snakers4/silero-models); 
+- [rasa](https://github.com/RasaHQ);  
+- [silaro](https://github.com/snakers4/silero-models); 
 
 
 # rasa Installation steps
-    1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here] (https://rasa.com/docs/rasa/installation/)
+    1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here](https://rasa.com/docs/rasa/installation/)
        Current version of rasa version 3.x requires python 3.7 or 3.8. enable rasa virtual environment before following below installation steps.
 
     2) Install rasa using 
@@ -42,12 +42,14 @@ There are 2 base softwares / frameworks those need to be installed for setting u
     pip install rasa
     
     ```  
-    3) Run "rasa init" on the terminal. please follow on screen instructions to complete creating rasa chatbot instance.  
+    3) Run "rasa init" on the terminal. please follow on screen instructions to complete creating rasa chatbot instance. 
+    
 
     ```
     rasa init
     
     ```
+    
     4) Once you have rasa chatbot instance installed you can check if it is working properly by running rasa shell that lets you talk to your assistant on the command line     
     
     ```
@@ -108,23 +110,24 @@ if you are not able to speak with your computer then try checking below points
  
 
 ## Citations
- 
-@misc{Silero Models,
+
+@misc{Silero VAD,
   author = {Silero Team},
-  title = {Silero Models: pre-trained enterprise-grade STT / TTS models and benchmarks},
+  title = {Silero VAD: pre-trained enterprise-grade Voice Activity Detector (VAD), Number Detector and Language Classifier},
   year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/snakers4/silero-models}},
+  howpublished = {\url{https://github.com/snakers4/silero-vad}},
   commit = {insert_some_commit_here},
   email = {hello@silero.ai}
 }
- 
-[rasa] (https://github.com/RasaHQ);  
+
+[rasa](https://github.com/RasaHQ);  
 
 
 ## Future enhancements
 
+This repo presents the base working implementation of convo. This can be further enhanced in many ways. Some of the enhancements are mentioned below 
  - Add more functionality to rasa like chitchat, faq and api calls to more "skills"
  - Add more communication languages and speakers
  - perform in momery processing of audio improving performance further  
