@@ -91,7 +91,7 @@ With that we are done with the installation steps. Now try running convo.py in t
 
 when you run convo for the first time, it will download silero models to cache. Download Progress will be displayed in the output terminal. In subsequent runs it will use locally cached models which will be fast.
 
-# Troubleshooting steps
+# Troubleshooting tips
 
 if you are not able to speak with your computer then try checking below points
 
