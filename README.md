@@ -107,8 +107,9 @@ if you are not able to speak with your computer then try checking below points
 
 ## Citations
 
-https://github.com/RasaHQ)
-https://github.com/snakers4/silero-models
+  - https://github.com/RasaHQ
+
+  - https://github.com/snakers4/silero-models
 
 
 ## Future enhancements
