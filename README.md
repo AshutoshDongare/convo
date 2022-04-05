@@ -67,7 +67,7 @@ There are 2 base softwares / frameworks those need to be installed for setting u
     
 2) There are quite a few dependencies for running silero. we will go through them in following steps
     
-3) Install pytorch using instructions on https://pytorch.org/get-started/locally/ - if you are on windows & cpu only, this command may look like below
+3) Install pytorch using instructions on https://pytorch.org/get-started/locally/ - if you are on windows & cpu only, this command may look like below. Use appropriate command line for your machine configuration.
     
 ``` 
 pip install torch torchvision torchaudio
