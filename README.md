@@ -117,6 +117,6 @@ if you are not able to speak with your computer then try checking below points
 ## Future enhancements
 
 This repo presents the base working implementation of convo. This can be further enhanced in many ways. Some of the enhancements are mentioned below 
- - Add more functionality to rasa like chitchat, faq and api calls to more "skills"
- - Add more communication languages and speakers
- - perform in momery processing of audio improving performance further
+ - Add more functionality to rasa like chitchat, faq and custom api calls
+ - Add more languages and speakers
+ - Perform in momery processing of audio
