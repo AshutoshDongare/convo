@@ -46,7 +46,7 @@ There are 2 base softwares / frameworks those need to be installed for setting u
  rasa init
 ```
     
-4) Once you have rasa chatbot instance installed you can check if it is working properly by running rasa shell that lets you talk to your assistant on the command line     
+4) Once you have rasa chatbot instance installed you can check if it is working properly by running rasa shell that lets you talk to your assistant on the command line. Note - Change the directory to your rasa instance and run below command.     
 ```
  rasa shell
 ```
