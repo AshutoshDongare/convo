@@ -87,7 +87,7 @@ pipwin install pyaudio
 
 6) convo uses imports from silero those are already included in this repo. please check an ensure that silero model and utils are at the right place
 
-With that we are done with the installation steps. Now try running convo.py in the terminal using silero virtual environment and you should be able to speak with your computer :smile:
+With that we are done with the installation steps. Now try running convo.py in the terminal using silero virtual environment and you should be able to speak with your computer :thumbsup:
 ```
 python convo.py
 ```
