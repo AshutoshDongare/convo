@@ -39,8 +39,10 @@ There are 2 base softwares / frameworks those need to be installed for setting u
 
 1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here](https://rasa.com/docs/rasa/installation/). Current version of rasa version 3.x requires python 3.7 or 3.8. enable rasa virtual environment before following below installation steps.
 
-2) Install rasa using 
+2) Install rasa using below commands
 ```
+ pip install --upgrade pip
+ 
  pip install rasa
 ```  
 3) Run "rasa init" on the terminal. please follow on screen instructions to complete creating rasa chatbot instance. 
@@ -103,8 +105,9 @@ if you are not able to speak with your computer then try checking below points
 1) Please check if your mic and speaker are enabled. on windows you may also need to check permissions etc.
 2) Please check if all the mentioned liberaries are installed properly and you are running both silero and rasa in their own virtual environments
 3) Please check if are running rasa server from inside of the rasa bot directory using "rasa run --enable-api" and it said rasa server is up and running
-4) If you have had some compatibility errors while installing on the virtual environments, you may want to delete and recreate them
-5) In future there might be a change in the avaliable liberaries or compatibility, please do check for those kind of issues.
+4) Standard laptop mic doesn't often have a great quality that may impact speech recognition quality. Try raising mic input volume level or try using better quality mic.
+5) If you have had some compatibility errors while installing on the virtual environments, you may want to delete and recreate them
+6) In future there might be a change in the avaliable liberaries or compatibility, please do check for those kind of issues.
  
 
 ## Citations
