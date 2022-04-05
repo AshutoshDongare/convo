@@ -2,7 +2,7 @@
  [![Mailing list : test](http://img.shields.io/badge/Email-gray.svg?style=for-the-badge&logo=gmail)](mailto:ashutosh.dongare@gmail.com) [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-GNU%20AGPL%203.0-lightgrey.svg?style=for-the-badge)](https://github.com/AshutoshDongare/convo/blob/main/LICENSE)
 
 
-# convo - Enterprise grade continuous speech conversationalist
+# convo - Enterprise grade continuous speech conversationalist that works locally
 
 ![header](https://user-images.githubusercontent.com/18417621/161523640-a8cb4eea-0f74-4fff-ba0a-02182bd03a33.png)
 
