@@ -112,7 +112,7 @@ if you are not able to speak with your computer then try checking below points
 
 ## Citations
 
-This repo builds on top of 2 great softwares below
+This repo builds on top of 2 great softwares
 
   - https://github.com/RasaHQ
 
@@ -127,9 +127,8 @@ This repo presents the base working implementation of convo. This can be further
  - Perform in momery processing of audio
 
 
-## Feedback
+## Feedback and References
 
-If you face any issues or have suggesions, please mention those in issues sections.
-If you liked this repo please consider starring it.
-If you are able to use this repo in your work, please consider mentioning this repo.
+- If you face any issues or have suggesions, please mention those in issues sections.
+- If you liked this repo and you are able to use it in your work, please consider mentioning this repo in ciatations.
 
