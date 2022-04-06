@@ -129,6 +129,6 @@ This repo presents the base working implementation of convo. This can be further
 
 ## Feedback and References
 
-- If you face any issues or have suggesions, please mention those in issues sections.
-- If you liked this repo and you are able to use it in your work, please consider starring and mentioning this repo in your ciatations.
+- If you face any issues or have suggesions, please mention those in issues section
+- If you liked this repo and/or you were able to use it in your work, please consider starring and mentioning this repo in your ciatations
 
