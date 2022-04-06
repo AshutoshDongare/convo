@@ -112,6 +112,8 @@ if you are not able to speak with your computer then try checking below points
 
 ## Citations
 
+This repo builds on top of 2 great softwares below
+
   - https://github.com/RasaHQ
 
   - https://github.com/snakers4/silero-models
@@ -123,3 +125,11 @@ This repo presents the base working implementation of convo. This can be further
  - Add more functionality to rasa like chitchat, faq and custom api calls
  - Add more languages and speakers
  - Perform in momery processing of audio
+
+
+## Feedback
+
+If you face any issues or have suggesions, please mention those in issues sections.
+If you liked this repo please consider starring it.
+If you are able to use this repo in your work, please consider mentioning this repo.
+
