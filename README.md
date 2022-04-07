@@ -6,7 +6,7 @@
 
 ![header](https://user-images.githubusercontent.com/18417621/161523640-a8cb4eea-0f74-4fff-ba0a-02182bd03a33.png)
 
-### convo works locally and it is free
+### convo works locally and it's free
 
 convo birngs together [silero](https://github.com/snakers4/silero-models) and [rasa](https://github.com/RasaHQ) to create continuous speech conversationalist experience like Alexa or Google dot. 
 
