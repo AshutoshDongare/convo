@@ -37,7 +37,7 @@ There are 2 base softwares / frameworks those need to be installed for setting u
 
 ## rasa Installation steps
 
-1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here](https://rasa.com/docs/rasa/installation/). Current version of rasa version 3.x requires python 3.7 or 3.8. enable rasa virtual environment before following below installation steps.
+1) Create a python virtual environment named "rasa" with suitable python version mentioned in [rasa installation here](https://rasa.com/docs/rasa/installation/). Current rasa version 3.x requires python 3.7 or 3.8. enable rasa virtual environment before following below installation steps.
 
 2) Install rasa using below commands
 ```
