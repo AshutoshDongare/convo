@@ -17,6 +17,9 @@ convo birngs together [silero](https://github.com/snakers4/silero-models) and [r
 convo can run easily on a local cpu based machine, thus convo provides high response times at no cloud service costs.
 
 Typical STT and TTS infernece time on a local machine for one sentence is less than 0.5 seconds each and rasa bot response time is around 1-2 seconds. This can be improved even further by fine tuning and using dedicated machines. 
+
+>***There is some time duration required for the users to speak and for convo to play audio of response. This does not count as processing time of convo or any other voice bot.***
+
   
 convo advantages:
 - High performance as the framework can run locally on a cpu;
